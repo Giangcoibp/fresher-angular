@@ -1,0 +1,37 @@
+<div class="container" >
+	<h2 class="text-center">Angular JS Application</h2>
+	<div class="col-sm-8">
+		<h3>Product detail</h3>
+		<table style="width: 50%; border-spacing: 20px; border-collapse: inherit;">
+			<tr>
+				<td>Name:<b></td>
+				<td>{{product.name}}</td>
+			</tr>
+			<tr>
+				<td>Model:<b></td>
+				<td>{{product.model}}</td>
+			</tr>
+			<tr>
+				<td>Year:<b></td>
+				<td>{{product.year}}</td>
+			</tr>
+			<tr>
+				<td>Price:<b></td>
+				<td>{{product.price | currency}}</td>
+			</tr>
+			<tr>
+				<td>Producer:<b></td>
+				<td>{{product.producer}}</td>
+			</tr>
+			<tr>
+				<td>Available:<b></td>
+				<td>{{product.available}}</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="button" class="btn btn-info" ng-click="doTheBack()">Back to main store</button></td>
+			</tr>
+		</table>		
+	</div>
+	
+</div>
